@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "langchain"
+name = "langplus"
 version = "0.0.196"
 description = "Building applications with LLMs through composability"
 authors = []
