@@ -2,7 +2,7 @@
 
 import unittest
 
-from langchain.schema import (
+from langplus.schema import (
     AIMessage,
     HumanMessage,
     SystemMessage,

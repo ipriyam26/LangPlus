@@ -1,6 +1,6 @@
 import pytest
 
-from langchain.document_loaders import UnstructuredURLLoader
+from langplus.document_loaders import UnstructuredURLLoader
 
 
 def test_continue_on_failure_true() -> None:

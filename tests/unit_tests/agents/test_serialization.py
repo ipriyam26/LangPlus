@@ -1,9 +1,9 @@
 from pathlib import Path
 from tempfile import TemporaryDirectory
 
-from langchain.agents.agent_types import AgentType
-from langchain.agents.initialize import initialize_agent, load_agent
-from langchain.llms.fake import FakeListLLM
+from langplus.agents.agent_types import AgentType
+from langplus.agents.initialize import initialize_agent, load_agent
+from langplus.llms.fake import FakeListLLM
 
 
 def test_mrkl_serialization() -> None:

@@ -1,9 +1,9 @@
 import json
 import os
 
-from langchain.memory import ConversationBufferMemory
-from langchain.memory.chat_message_histories import CosmosDBChatMessageHistory
-from langchain.schema import _message_to_dict
+from langplus.memory import ConversationBufferMemory
+from langplus.memory.chat_message_histories import CosmosDBChatMessageHistory
+from langplus.schema import _message_to_dict
 
 # Replace these with your Azure Cosmos DB endpoint and key
 endpoint = os.environ["COSMOS_DB_ENDPOINT"]

@@ -1,7 +1,7 @@
 """Test vector store utility functions."""
 import numpy as np
 
-from langchain.vectorstores.utils import maximal_marginal_relevance
+from langplus.vectorstores.utils import maximal_marginal_relevance
 
 
 def test_maximal_marginal_relevance_lambda_zero() -> None:

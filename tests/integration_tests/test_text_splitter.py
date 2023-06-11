@@ -2,7 +2,7 @@
 
 import pytest
 
-from langchain.text_splitter import (
+from langplus.text_splitter import (
     CharacterTextSplitter,
     SentenceTransformersTokenTextSplitter,
     TokenTextSplitter,

@@ -1,7 +1,7 @@
 """Integration test for self ask with search."""
-from langchain.agents.self_ask_with_search.base import SelfAskWithSearchChain
-from langchain.llms.openai import OpenAI
-from langchain.utilities.google_serper import GoogleSerperAPIWrapper
+from langplus.agents.self_ask_with_search.base import SelfAskWithSearchChain
+from langplus.llms.openai import OpenAI
+from langplus.utilities.google_serper import GoogleSerperAPIWrapper
 
 
 def test_self_ask_with_search() -> None:

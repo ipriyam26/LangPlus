@@ -5,6 +5,6 @@ def test_power_bi_can_be_imported() -> None:
     when loading powerbi related code if they don't have optional dependencies
     installed.
     """
-    from langchain.tools.powerbi.tool import QueryPowerBITool  # noqa
-    from langchain.agents.agent_toolkits import PowerBIToolkit, create_pbi_agent  # noqa
-    from langchain.utilities.powerbi import PowerBIDataset  # noqa
+    from langplus.tools.powerbi.tool import QueryPowerBITool  # noqa
+    from langplus.agents.agent_toolkits import PowerBIToolkit, create_pbi_agent  # noqa
+    from langplus.utilities.powerbi import PowerBIDataset  # noqa

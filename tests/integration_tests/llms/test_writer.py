@@ -1,6 +1,6 @@
 """Test Writer API wrapper."""
 
-from langchain.llms.writer import Writer
+from langplus.llms.writer import Writer
 
 
 def test_writer_call() -> None:

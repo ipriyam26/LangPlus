@@ -4,13 +4,13 @@ from typing import Any, cast
 import lark
 import pytest
 
-from langchain.chains.query_constructor.ir import (
+from langplus.chains.query_constructor.ir import (
     Comparator,
     Comparison,
     Operation,
     Operator,
 )
-from langchain.chains.query_constructor.parser import get_parser
+from langplus.chains.query_constructor.parser import get_parser
 
 DEFAULT_PARSER = get_parser()
 

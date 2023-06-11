@@ -1,4 +1,4 @@
-from langchain.document_loaders.web_base import WebBaseLoader
+from langplus.document_loaders.web_base import WebBaseLoader
 
 
 class TestWebBaseLoader:

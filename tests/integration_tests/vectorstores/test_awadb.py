@@ -1,6 +1,6 @@
 """Test AwaDB functionality."""
-from langchain.docstore.document import Document
-from langchain.vectorstores import AwaDB
+from langplus.docstore.document import Document
+from langplus.vectorstores import AwaDB
 from tests.integration_tests.vectorstores.fake_embeddings import FakeEmbeddings
 
 

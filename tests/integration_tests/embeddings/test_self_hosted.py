@@ -3,7 +3,7 @@ from typing import Any
 
 from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline
 
-from langchain.embeddings import (
+from langplus.embeddings import (
     SelfHostedEmbeddings,
     SelfHostedHuggingFaceEmbeddings,
     SelfHostedHuggingFaceInstructEmbeddings,

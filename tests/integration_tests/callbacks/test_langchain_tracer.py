@@ -5,17 +5,17 @@ import os
 import pytest
 from aiohttp import ClientSession
 
-from langchain.agents import AgentType, initialize_agent, load_tools
-from langchain.callbacks import tracing_enabled
-from langchain.callbacks.manager import (
+from langplus.agents import AgentType, initialize_agent, load_tools
+from langplus.callbacks import tracing_enabled
+from langplus.callbacks.manager import (
     atrace_as_chain_group,
     trace_as_chain_group,
     tracing_v2_enabled,
 )
-from langchain.chains import LLMChain
-from langchain.chat_models import ChatOpenAI
-from langchain.llms import OpenAI
-from langchain.prompts import PromptTemplate
+from langplus.chains import LLMChain
+from langplus.chat_models import ChatOpenAI
+from langplus.llms import OpenAI
+from langplus.prompts import PromptTemplate
 
 questions = [
     (

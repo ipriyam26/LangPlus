@@ -1,6 +1,6 @@
 """Test C Transformers wrapper."""
 
-from langchain.llms import CTransformers
+from langplus.llms import CTransformers
 from tests.unit_tests.callbacks.fake_callback_handler import FakeCallbackHandler
 
 

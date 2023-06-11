@@ -7,9 +7,9 @@ from typing import List, Type
 
 import pytest
 
-from langchain.tools.base import BaseTool
-from langchain.tools.gmail.base import GmailBaseTool
-from langchain.tools.playwright.base import BaseBrowserTool
+from langplus.tools.base import BaseTool
+from langplus.tools.gmail.base import GmailBaseTool
+from langplus.tools.playwright.base import BaseBrowserTool
 
 
 def get_non_abstract_subclasses(cls: Type[BaseTool]) -> List[Type[BaseTool]]:

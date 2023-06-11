@@ -1,11 +1,11 @@
 import json
 import os
 
-from langchain.memory import ConversationBufferMemory
-from langchain.memory.chat_message_histories.cassandra import (
+from langplus.memory import ConversationBufferMemory
+from langplus.memory.chat_message_histories.cassandra import (
     CassandraChatMessageHistory,
 )
-from langchain.schema import _message_to_dict
+from langplus.schema import _message_to_dict
 
 # Replace these with your cassandra contact points
 contact_points = (

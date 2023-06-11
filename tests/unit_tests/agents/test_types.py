@@ -1,7 +1,7 @@
 import unittest
 
-from langchain.agents.agent_types import AgentType
-from langchain.agents.types import AGENT_TO_CLASS
+from langplus.agents.agent_types import AgentType
+from langplus.agents.types import AGENT_TO_CLASS
 
 
 class TestTypes(unittest.TestCase):

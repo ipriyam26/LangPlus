@@ -1,7 +1,7 @@
 import os
 from pathlib import Path
 
-from langchain.document_loaders import UnstructuredXMLLoader
+from langplus.document_loaders import UnstructuredXMLLoader
 
 EXAMPLE_DIRECTORY = file_path = Path(__file__).parent.parent / "examples"
 

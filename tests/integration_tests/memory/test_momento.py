@@ -12,9 +12,9 @@ from typing import Iterator
 import pytest
 from momento import CacheClient, Configurations, CredentialProvider
 
-from langchain.memory import ConversationBufferMemory
-from langchain.memory.chat_message_histories import MomentoChatMessageHistory
-from langchain.schema import _message_to_dict
+from langplus.memory import ConversationBufferMemory
+from langplus.memory.chat_message_histories import MomentoChatMessageHistory
+from langplus.schema import _message_to_dict
 
 
 def random_string() -> str:

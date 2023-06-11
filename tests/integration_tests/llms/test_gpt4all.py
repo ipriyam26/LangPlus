@@ -3,7 +3,7 @@
 import os
 from urllib.request import urlretrieve
 
-from langchain.llms import GPT4All
+from langplus.llms import GPT4All
 
 
 def _download_model() -> str:

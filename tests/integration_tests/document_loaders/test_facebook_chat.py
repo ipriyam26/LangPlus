@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from langchain.document_loaders import FacebookChatLoader
+from langplus.document_loaders import FacebookChatLoader
 
 
 def test_facebook_chat_loader() -> None:

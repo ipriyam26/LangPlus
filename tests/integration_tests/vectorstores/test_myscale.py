@@ -1,8 +1,8 @@
 """Test MyScale functionality."""
 import pytest
 
-from langchain.docstore.document import Document
-from langchain.vectorstores import MyScale, MyScaleSettings
+from langplus.docstore.document import Document
+from langplus.vectorstores import MyScale, MyScaleSettings
 from tests.integration_tests.vectorstores.fake_embeddings import FakeEmbeddings
 
 

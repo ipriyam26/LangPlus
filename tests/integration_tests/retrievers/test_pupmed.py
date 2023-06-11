@@ -3,8 +3,8 @@ from typing import List
 
 import pytest
 
-from langchain.retrievers import PubMedRetriever
-from langchain.schema import Document
+from langplus.retrievers import PubMedRetriever
+from langplus.schema import Document
 
 
 @pytest.fixture

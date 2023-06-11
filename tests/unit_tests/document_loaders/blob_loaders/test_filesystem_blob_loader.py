@@ -6,7 +6,7 @@ from typing import Generator, Sequence
 
 import pytest
 
-from langchain.document_loaders.blob_loaders import FileSystemBlobLoader
+from langplus.document_loaders.blob_loaders import FileSystemBlobLoader
 
 
 @pytest.fixture

@@ -1,5 +1,5 @@
 """Test LLM utility functions."""
-from langchain.llms.utils import enforce_stop_tokens
+from langplus.llms.utils import enforce_stop_tokens
 
 
 def test_enforce_stop_tokens() -> None:

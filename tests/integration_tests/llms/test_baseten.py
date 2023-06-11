@@ -4,7 +4,7 @@ import os
 import baseten
 import pytest
 
-from langchain.llms.baseten import Baseten
+from langplus.llms.baseten import Baseten
 
 
 @pytest.mark.requires(baseten)

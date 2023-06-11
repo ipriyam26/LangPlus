@@ -1,7 +1,7 @@
 """Tests for the Slack directory loader"""
 from pathlib import Path
 
-from langchain.document_loaders import SlackDirectoryLoader
+from langplus.document_loaders import SlackDirectoryLoader
 
 
 def test_slack_directory_loader() -> None:

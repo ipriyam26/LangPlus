@@ -1,7 +1,7 @@
 """Test MosaicML API wrapper."""
 import pytest
 
-from langchain.llms.mosaicml import PROMPT_FOR_GENERATION_FORMAT, MosaicML
+from langplus.llms.mosaicml import PROMPT_FOR_GENERATION_FORMAT, MosaicML
 
 
 def test_mosaicml_llm_call() -> None:

@@ -1,6 +1,6 @@
 """Test Petals API wrapper."""
 
-from langchain.llms.petals import Petals
+from langplus.llms.petals import Petals
 
 
 def test_gooseai_call() -> None:

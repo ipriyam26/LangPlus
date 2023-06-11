@@ -3,7 +3,7 @@
 from pathlib import Path
 from tempfile import TemporaryDirectory
 
-from langchain.tools.file_management.read import ReadFileTool
+from langplus.tools.file_management.read import ReadFileTool
 
 
 def test_read_file_with_root_dir() -> None:

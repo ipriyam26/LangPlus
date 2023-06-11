@@ -1,7 +1,7 @@
 """Test HuggingFaceHub embeddings."""
 import pytest
 
-from langchain.embeddings import HuggingFaceHubEmbeddings
+from langplus.embeddings import HuggingFaceHubEmbeddings
 
 
 def test_huggingfacehub_embedding_documents() -> None:

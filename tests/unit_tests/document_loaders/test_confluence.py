@@ -4,8 +4,8 @@ from unittest.mock import MagicMock, patch
 
 import pytest
 
-from langchain.docstore.document import Document
-from langchain.document_loaders.confluence import ConfluenceLoader
+from langplus.docstore.document import Document
+from langplus.document_loaders.confluence import ConfluenceLoader
 
 
 @pytest.fixture

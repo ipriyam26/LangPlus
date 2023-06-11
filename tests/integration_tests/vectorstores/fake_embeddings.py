@@ -1,7 +1,7 @@
 """Fake Embedding class for testing purposes."""
 from typing import List
 
-from langchain.embeddings.base import Embeddings
+from langplus.embeddings.base import Embeddings
 
 fake_texts = ["foo", "bar", "baz"]
 

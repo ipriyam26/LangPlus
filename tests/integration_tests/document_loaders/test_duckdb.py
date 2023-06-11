@@ -1,6 +1,6 @@
 import unittest
 
-from langchain.document_loaders.duckdb_loader import DuckDBLoader
+from langplus.document_loaders.duckdb_loader import DuckDBLoader
 
 try:
     import duckdb  # noqa: F401

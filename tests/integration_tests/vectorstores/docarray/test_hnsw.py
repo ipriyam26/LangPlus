@@ -4,8 +4,8 @@ from typing import List
 import numpy as np
 import pytest
 
-from langchain.schema import Document
-from langchain.vectorstores.docarray import DocArrayHnswSearch
+from langplus.schema import Document
+from langplus.vectorstores.docarray import DocArrayHnswSearch
 from tests.integration_tests.vectorstores.fake_embeddings import FakeEmbeddings
 
 

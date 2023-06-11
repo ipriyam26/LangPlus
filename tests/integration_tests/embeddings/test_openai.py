@@ -2,7 +2,7 @@
 import numpy as np
 import openai
 
-from langchain.embeddings.openai import OpenAIEmbeddings
+from langplus.embeddings.openai import OpenAIEmbeddings
 
 
 def test_openai_embedding_documents() -> None:

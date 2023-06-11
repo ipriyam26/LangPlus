@@ -7,9 +7,9 @@ from typing import Generator, Union
 import pytest
 from weaviate import Client
 
-from langchain.docstore.document import Document
-from langchain.embeddings.openai import OpenAIEmbeddings
-from langchain.vectorstores.weaviate import Weaviate
+from langplus.docstore.document import Document
+from langplus.embeddings.openai import OpenAIEmbeddings
+from langplus.vectorstores.weaviate import Weaviate
 from tests.integration_tests.vectorstores.fake_embeddings import FakeEmbeddings
 
 logging.basicConfig(level=logging.DEBUG)

@@ -1,7 +1,7 @@
-from langchain.embeddings import OpenAIEmbeddings
-from langchain.retrievers.contextual_compression import ContextualCompressionRetriever
-from langchain.retrievers.document_compressors import EmbeddingsFilter
-from langchain.vectorstores import Chroma
+from langplus.embeddings import OpenAIEmbeddings
+from langplus.retrievers.contextual_compression import ContextualCompressionRetriever
+from langplus.retrievers.document_compressors import EmbeddingsFilter
+from langplus.vectorstores import Chroma
 
 
 def test_contextual_compression_retriever_get_relevant_docs() -> None:

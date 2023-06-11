@@ -1,9 +1,9 @@
 """Test Graph Database Chain."""
 import os
 
-from langchain.chains.graph_qa.cypher import GraphCypherQAChain
-from langchain.graphs import Neo4jGraph
-from langchain.llms.openai import OpenAI
+from langplus.chains.graph_qa.cypher import GraphCypherQAChain
+from langplus.graphs import Neo4jGraph
+from langplus.llms.openai import OpenAI
 
 
 def test_connect_neo4j() -> None:

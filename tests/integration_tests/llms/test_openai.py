@@ -5,11 +5,11 @@ from typing import Generator
 
 import pytest
 
-from langchain.callbacks.manager import CallbackManager
-from langchain.chat_models.openai import ChatOpenAI
-from langchain.llms.loading import load_llm
-from langchain.llms.openai import OpenAI, OpenAIChat
-from langchain.schema import LLMResult
+from langplus.callbacks.manager import CallbackManager
+from langplus.chat_models.openai import ChatOpenAI
+from langplus.llms.loading import load_llm
+from langplus.llms.openai import OpenAI, OpenAIChat
+from langplus.schema import LLMResult
 from tests.unit_tests.callbacks.fake_callback_handler import FakeCallbackHandler
 
 

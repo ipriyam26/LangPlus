@@ -2,8 +2,8 @@
 
 from pathlib import Path
 
-from langchain.llms.cohere import Cohere
-from langchain.llms.loading import load_llm
+from langplus.llms.cohere import Cohere
+from langplus.llms.loading import load_llm
 from tests.integration_tests.llms.utils import assert_llm_equality
 
 

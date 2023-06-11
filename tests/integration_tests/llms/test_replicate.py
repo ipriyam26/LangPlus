@@ -1,6 +1,6 @@
 """Test Replicate API wrapper."""
 
-from langchain.llms.replicate import Replicate
+from langplus.llms.replicate import Replicate
 
 
 def test_replicate_call() -> None:

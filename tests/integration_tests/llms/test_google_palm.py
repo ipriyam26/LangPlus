@@ -6,8 +6,8 @@ Note: This test must be run with the GOOGLE_API_KEY environment variable set to 
 
 from pathlib import Path
 
-from langchain.llms.google_palm import GooglePalm
-from langchain.llms.loading import load_llm
+from langplus.llms.google_palm import GooglePalm
+from langplus.llms.loading import load_llm
 
 
 def test_google_palm_call() -> None:

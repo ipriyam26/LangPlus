@@ -1,8 +1,8 @@
 import pytest
 
-from langchain.callbacks import OpenAICallbackHandler
-from langchain.llms.openai import BaseOpenAI
-from langchain.schema import LLMResult
+from langplus.callbacks import OpenAICallbackHandler
+from langplus.llms.openai import BaseOpenAI
+from langplus.schema import LLMResult
 
 
 @pytest.fixture

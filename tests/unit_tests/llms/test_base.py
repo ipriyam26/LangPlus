@@ -6,25 +6,25 @@ try:
 except ImportError:
     from sqlalchemy.ext.declarative import declarative_base
 
-import langchain
-from langchain.cache import InMemoryCache, SQLAlchemyCache
-from langchain.schema import Generation, LLMResult
+import langplus
+from langplus.cache import InMemoryCache, SQLAlchemyCache
+from langplus.schema import Generation, LLMResult
 from tests.unit_tests.llms.fake_llm import FakeLLM
 
 
 def test_caching() -> None:
     """Test caching behavior."""
-    langchain.llm_cache = InMemoryCache()
+    langplus.llm_cache = InMemoryCache()
     llm = FakeLLM()
     params = llm.dict()
     params["stop"] = None
     llm_string = str(sorted([(k, v) for k, v in params.items()]))
-    langchain.llm_cache.update("foo", llm_string, [Generation(text="fizz")])
+    langplus.llm_cache.update("foo", llm_string, [Generation(text="fizz")])
     output = llm.generate(["foo", "bar", "foo"])
     expected_cache_output = [Generation(text="foo")]
-    cache_output = langchain.llm_cache.lookup("bar", llm_string)
+    cache_output = langplus.llm_cache.lookup("bar", llm_string)
     assert cache_output == expected_cache_output
-    langchain.llm_cache = None
+    langplus.llm_cache = None
     expected_generations = [
         [Generation(text="fizz")],
         [Generation(text="foo")],
@@ -52,17 +52,17 @@ def test_custom_caching() -> None:
         response = Column(String)
 
     engine = create_engine("sqlite://")
-    langchain.llm_cache = SQLAlchemyCache(engine, FulltextLLMCache)
+    langplus.llm_cache = SQLAlchemyCache(engine, FulltextLLMCache)
     llm = FakeLLM()
     params = llm.dict()
     params["stop"] = None
     llm_string = str(sorted([(k, v) for k, v in params.items()]))
-    langchain.llm_cache.update("foo", llm_string, [Generation(text="fizz")])
+    langplus.llm_cache.update("foo", llm_string, [Generation(text="fizz")])
     output = llm.generate(["foo", "bar", "foo"])
     expected_cache_output = [Generation(text="foo")]
-    cache_output = langchain.llm_cache.lookup("bar", llm_string)
+    cache_output = langplus.llm_cache.lookup("bar", llm_string)
     assert cache_output == expected_cache_output
-    langchain.llm_cache = None
+    langplus.llm_cache = None
     expected_generations = [
         [Generation(text="fizz")],
         [Generation(text="foo")],

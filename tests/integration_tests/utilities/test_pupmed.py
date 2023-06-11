@@ -3,10 +3,10 @@ from typing import Any, List
 
 import pytest
 
-from langchain.agents.load_tools import load_tools
-from langchain.schema import Document
-from langchain.tools.base import BaseTool
-from langchain.utilities import PubMedAPIWrapper
+from langplus.agents.load_tools import load_tools
+from langplus.schema import Document
+from langplus.tools.base import BaseTool
+from langplus.utilities import PubMedAPIWrapper
 
 
 @pytest.fixture

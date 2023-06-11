@@ -1,8 +1,8 @@
 import pytest
 from pytest_mock import MockerFixture
 
-from langchain.docstore.document import Document
-from langchain.document_loaders.github import GitHubIssuesLoader
+from langplus.docstore.document import Document
+from langplus.document_loaders.github import GitHubIssuesLoader
 
 
 def test_initialization() -> None:

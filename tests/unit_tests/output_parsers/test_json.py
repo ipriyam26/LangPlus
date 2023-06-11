@@ -1,6 +1,6 @@
 import pytest
 
-from langchain.output_parsers.json import parse_json_markdown
+from langplus.output_parsers.json import parse_json_markdown
 
 GOOD_JSON = """```json
 {

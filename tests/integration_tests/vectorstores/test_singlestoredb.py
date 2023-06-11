@@ -4,8 +4,8 @@ from typing import List
 import numpy as np
 import pytest
 
-from langchain.docstore.document import Document
-from langchain.vectorstores.singlestoredb import SingleStoreDB
+from langplus.docstore.document import Document
+from langplus.vectorstores.singlestoredb import SingleStoreDB
 from tests.integration_tests.vectorstores.fake_embeddings import FakeEmbeddings
 
 TEST_SINGLESTOREDB_URL = "root:pass@localhost:3306/db"

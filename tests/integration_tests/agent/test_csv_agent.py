@@ -5,9 +5,9 @@ import pytest
 from _pytest.tmpdir import TempPathFactory
 from pandas import DataFrame
 
-from langchain.agents import create_csv_agent
-from langchain.agents.agent import AgentExecutor
-from langchain.llms import OpenAI
+from langplus.agents import create_csv_agent
+from langplus.agents.agent import AgentExecutor
+from langplus.llms import OpenAI
 
 
 @pytest.fixture(scope="module")
