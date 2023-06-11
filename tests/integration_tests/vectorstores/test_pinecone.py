@@ -6,9 +6,9 @@ from typing import List
 import pinecone
 import pytest
 
-from langchain.docstore.document import Document
-from langchain.embeddings import OpenAIEmbeddings
-from langchain.vectorstores.pinecone import Pinecone
+from langplus.docstore.document import Document
+from langplus.embeddings import OpenAIEmbeddings
+from langplus.vectorstores.pinecone import Pinecone
 
 index_name = "langchain-test-index"  # name of the index
 namespace_name = "langchain-test-namespace"  # name of the namespace

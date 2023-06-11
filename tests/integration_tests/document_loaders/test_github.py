@@ -1,4 +1,4 @@
-from langchain.document_loaders.github import GitHubIssuesLoader
+from langplus.document_loaders.github import GitHubIssuesLoader
 
 
 def test_issues_load() -> None:

@@ -2,8 +2,8 @@
 
 import pytest
 
-from langchain.docstore.document import Document
-from langchain.vectorstores.opensearch_vector_search import (
+from langplus.docstore.document import Document
+from langplus.vectorstores.opensearch_vector_search import (
     PAINLESS_SCRIPTING_SEARCH,
     SCRIPT_SCORING_SEARCH,
     OpenSearchVectorSearch,

@@ -7,9 +7,9 @@ from typing import Generator, List, Union
 import pytest
 from elasticsearch import Elasticsearch
 
-from langchain.docstore.document import Document
-from langchain.embeddings import OpenAIEmbeddings
-from langchain.vectorstores.elastic_vector_search import ElasticVectorSearch
+from langplus.docstore.document import Document
+from langplus.embeddings import OpenAIEmbeddings
+from langplus.vectorstores.elastic_vector_search import ElasticVectorSearch
 from tests.integration_tests.vectorstores.fake_embeddings import FakeEmbeddings
 
 logging.basicConfig(level=logging.DEBUG)

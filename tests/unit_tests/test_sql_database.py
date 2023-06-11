@@ -12,7 +12,7 @@ from sqlalchemy import (
     insert,
 )
 
-from langchain.sql_database import SQLDatabase, truncate_word
+from langplus.sql_database import SQLDatabase, truncate_word
 
 metadata_obj = MetaData()
 

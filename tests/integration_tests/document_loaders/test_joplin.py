@@ -1,4 +1,4 @@
-from langchain.document_loaders.joplin import JoplinLoader
+from langplus.document_loaders.joplin import JoplinLoader
 
 
 def test_joplin_loader() -> None:

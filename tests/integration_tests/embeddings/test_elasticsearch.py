@@ -2,7 +2,7 @@
 
 import pytest
 
-from langchain.embeddings.elasticsearch import ElasticsearchEmbeddings
+from langplus.embeddings.elasticsearch import ElasticsearchEmbeddings
 
 
 @pytest.fixture

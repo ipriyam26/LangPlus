@@ -1,7 +1,7 @@
 from typing import List
 
-from langchain.document_loaders.arxiv import ArxivLoader
-from langchain.schema import Document
+from langplus.document_loaders.arxiv import ArxivLoader
+from langplus.schema import Document
 
 
 def assert_docs(docs: List[Document]) -> None:

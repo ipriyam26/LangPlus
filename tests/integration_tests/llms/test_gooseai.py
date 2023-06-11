@@ -1,6 +1,6 @@
 """Test GooseAI API wrapper."""
 
-from langchain.llms.gooseai import GooseAI
+from langplus.llms.gooseai import GooseAI
 
 
 def test_gooseai_call() -> None:

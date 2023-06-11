@@ -2,8 +2,8 @@
 
 from pathlib import Path
 
-from langchain.llms.loading import load_llm
-from langchain.llms.nlpcloud import NLPCloud
+from langplus.llms.loading import load_llm
+from langplus.llms.nlpcloud import NLPCloud
 from tests.integration_tests.llms.utils import assert_llm_equality
 
 

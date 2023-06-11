@@ -3,8 +3,8 @@ from typing import Any, Dict
 
 import pytest
 
-from langchain.requests import TextRequestsWrapper
-from langchain.tools.requests.tool import (
+from langplus.requests import TextRequestsWrapper
+from langplus.tools.requests.tool import (
     RequestsDeleteTool,
     RequestsGetTool,
     RequestsPatchTool,

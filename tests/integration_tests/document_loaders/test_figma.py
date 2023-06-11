@@ -1,4 +1,4 @@
-from langchain.document_loaders.figma import FigmaFileLoader
+from langplus.document_loaders.figma import FigmaFileLoader
 
 ACCESS_TOKEN = ""
 IDS = ""

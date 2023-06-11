@@ -1,7 +1,7 @@
 import pytest
 
-from langchain.retrievers.tfidf import TFIDFRetriever
-from langchain.schema import Document
+from langplus.retrievers.tfidf import TFIDFRetriever
+from langplus.schema import Document
 
 
 @pytest.mark.requires("sklearn")

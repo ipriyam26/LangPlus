@@ -3,8 +3,8 @@ from typing import Any, List, Mapping, Optional, cast
 
 from pydantic import validator
 
-from langchain.callbacks.manager import CallbackManagerForLLMRun
-from langchain.llms.base import LLM
+from langplus.callbacks.manager import CallbackManagerForLLMRun
+from langplus.llms.base import LLM
 
 
 class FakeLLM(LLM):

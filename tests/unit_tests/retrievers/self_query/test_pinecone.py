@@ -1,10 +1,10 @@
-from langchain.chains.query_constructor.ir import (
+from langplus.chains.query_constructor.ir import (
     Comparator,
     Comparison,
     Operation,
     Operator,
 )
-from langchain.retrievers.self_query.pinecone import PineconeTranslator
+from langplus.retrievers.self_query.pinecone import PineconeTranslator
 
 DEFAULT_TRANSLATOR = PineconeTranslator()
 

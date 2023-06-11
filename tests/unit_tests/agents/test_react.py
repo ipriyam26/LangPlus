@@ -2,14 +2,14 @@
 
 from typing import Any, List, Mapping, Optional, Union
 
-from langchain.agents.react.base import ReActChain, ReActDocstoreAgent
-from langchain.agents.tools import Tool
-from langchain.callbacks.manager import CallbackManagerForLLMRun
-from langchain.docstore.base import Docstore
-from langchain.docstore.document import Document
-from langchain.llms.base import LLM
-from langchain.prompts.prompt import PromptTemplate
-from langchain.schema import AgentAction
+from langplus.agents.react.base import ReActChain, ReActDocstoreAgent
+from langplus.agents.tools import Tool
+from langplus.callbacks.manager import CallbackManagerForLLMRun
+from langplus.docstore.base import Docstore
+from langplus.docstore.document import Document
+from langplus.llms.base import LLM
+from langplus.prompts.prompt import PromptTemplate
+from langplus.schema import AgentAction
 
 _PAGE_CONTENT = """This is a page about LangChain.
 

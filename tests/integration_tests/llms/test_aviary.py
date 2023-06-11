@@ -1,6 +1,6 @@
 """Test Anyscale API wrapper."""
 
-from langchain.llms.aviary import Aviary
+from langplus.llms.aviary import Aviary
 
 
 def test_aviary_call() -> None:

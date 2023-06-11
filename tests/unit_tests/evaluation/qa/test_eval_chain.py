@@ -4,7 +4,7 @@ from typing import Type
 
 import pytest
 
-from langchain.evaluation.qa.eval_chain import (
+from langplus.evaluation.qa.eval_chain import (
     ContextQAEvalChain,
     CotQAEvalChain,
     QAEvalChain,

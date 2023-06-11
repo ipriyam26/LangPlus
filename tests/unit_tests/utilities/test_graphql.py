@@ -3,7 +3,7 @@ import json
 import pytest
 import responses
 
-from langchain.utilities.graphql import GraphQLAPIWrapper
+from langplus.utilities.graphql import GraphQLAPIWrapper
 
 TEST_ENDPOINT = "http://testserver/graphql"
 

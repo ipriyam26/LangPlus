@@ -3,8 +3,8 @@ from typing import List
 
 import pytest
 
-from langchain.docstore.document import Document
-from langchain.vectorstores.redis import Redis
+from langplus.docstore.document import Document
+from langplus.vectorstores.redis import Redis
 from tests.integration_tests.vectorstores.fake_embeddings import FakeEmbeddings
 
 TEST_INDEX_NAME = "test"

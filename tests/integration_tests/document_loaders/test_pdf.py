@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from langchain.document_loaders import (
+from langplus.document_loaders import (
     MathpixPDFLoader,
     PDFMinerLoader,
     PDFMinerPDFasHTMLLoader,

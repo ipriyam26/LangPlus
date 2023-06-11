@@ -3,7 +3,7 @@
 import os
 from urllib.request import urlretrieve
 
-from langchain.llms import RWKV
+from langplus.llms import RWKV
 import warnings
 import pytest
 

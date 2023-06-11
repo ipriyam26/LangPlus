@@ -1,9 +1,9 @@
 """Test building the Zapier tool, not running it."""
 import pytest
 
-from langchain.tools.zapier.prompt import BASE_ZAPIER_TOOL_PROMPT
-from langchain.tools.zapier.tool import ZapierNLARunAction
-from langchain.utilities.zapier import ZapierNLAWrapper
+from langplus.tools.zapier.prompt import BASE_ZAPIER_TOOL_PROMPT
+from langplus.tools.zapier.tool import ZapierNLARunAction
+from langplus.utilities.zapier import ZapierNLAWrapper
 
 
 def test_default_base_prompt() -> None:

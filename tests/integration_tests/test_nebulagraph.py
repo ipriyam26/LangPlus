@@ -2,7 +2,7 @@ import unittest
 from typing import Any
 from unittest.mock import MagicMock, patch
 
-from langchain.graphs import NebulaGraph
+from langplus.graphs import NebulaGraph
 
 
 class TestNebulaGraph(unittest.TestCase):

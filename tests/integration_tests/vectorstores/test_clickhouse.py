@@ -1,8 +1,8 @@
 """Test ClickHouse functionality."""
 import pytest
 
-from langchain.docstore.document import Document
-from langchain.vectorstores import Clickhouse, ClickhouseSettings
+from langplus.docstore.document import Document
+from langplus.vectorstores import Clickhouse, ClickhouseSettings
 from tests.integration_tests.vectorstores.fake_embeddings import FakeEmbeddings
 
 

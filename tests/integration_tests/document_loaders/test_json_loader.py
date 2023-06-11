@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from langchain.document_loaders import JSONLoader
+from langplus.document_loaders import JSONLoader
 
 
 def test_json_loader() -> None:

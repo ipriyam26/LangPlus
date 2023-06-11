@@ -4,10 +4,10 @@ from typing import Generator, List, Union
 import pytest
 from vcr.request import Request
 
-from langchain.document_loaders import TextLoader
-from langchain.embeddings import OpenAIEmbeddings
-from langchain.schema import Document
-from langchain.text_splitter import CharacterTextSplitter
+from langplus.document_loaders import TextLoader
+from langplus.embeddings import OpenAIEmbeddings
+from langplus.schema import Document
+from langplus.text_splitter import CharacterTextSplitter
 
 # Those environment variables turn on Deep Lake pytest mode.
 # It significantly makes tests run much faster.

@@ -8,12 +8,12 @@ from typing import Any, Optional, Type, Union
 import pytest
 from pydantic import BaseModel
 
-from langchain.agents.tools import Tool, tool
-from langchain.callbacks.manager import (
+from langplus.agents.tools import Tool, tool
+from langplus.callbacks.manager import (
     AsyncCallbackManagerForToolRun,
     CallbackManagerForToolRun,
 )
-from langchain.tools.base import (
+from langplus.tools.base import (
     BaseTool,
     SchemaAnnotationError,
     StructuredTool,

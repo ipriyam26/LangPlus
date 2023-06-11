@@ -24,11 +24,14 @@ Please fill out [this form](https://forms.gle/57d8AmXBYp8PP8tZA) and we'll set u
 
 ## Quick Install
 
-`pip install langchain`
-or
-`conda install langchain -c conda-forge`
+`pip install langplus`
+
 
 ## 🤔 What is this?
+
+Extension on langchain for more advanced use cases.
+
+License remains the same as langchain. Will contribute back to langchain as much as possible.
 
 Large language models (LLMs) are emerging as a transformative technology, enabling developers to build applications that they previously could not. However, using these LLMs in isolation is often insufficient for creating a truly powerful app - the real power comes when you can combine them with other sources of computation or knowledge.
 

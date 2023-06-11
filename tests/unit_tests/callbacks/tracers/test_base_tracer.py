@@ -8,10 +8,10 @@ from uuid import uuid4
 import pytest
 from freezegun import freeze_time
 
-from langchain.callbacks.manager import CallbackManager
-from langchain.callbacks.tracers.base import BaseTracer, TracerException
-from langchain.callbacks.tracers.schemas import Run
-from langchain.schema import LLMResult
+from langplus.callbacks.manager import CallbackManager
+from langplus.callbacks.tracers.base import BaseTracer, TracerException
+from langplus.callbacks.tracers.schemas import Run
+from langplus.schema import LLMResult
 
 
 class FakeTracer(BaseTracer):

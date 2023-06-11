@@ -1,8 +1,8 @@
 from pathlib import Path
 from typing import List
 
-from langchain.prompts import PromptTemplate
-from langchain.prompts.chat import (
+from langplus.prompts import PromptTemplate
+from langplus.prompts.chat import (
     AIMessagePromptTemplate,
     BaseMessagePromptTemplate,
     ChatMessagePromptTemplate,
@@ -11,7 +11,7 @@ from langchain.prompts.chat import (
     HumanMessagePromptTemplate,
     SystemMessagePromptTemplate,
 )
-from langchain.schema import HumanMessage
+from langplus.schema import HumanMessage
 
 
 def create_messages() -> List[BaseMessagePromptTemplate]:

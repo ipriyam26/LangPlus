@@ -3,8 +3,8 @@ from typing import Tuple
 
 import pytest
 
-from langchain.memory.chat_message_histories import SQLChatMessageHistory
-from langchain.schema import AIMessage, HumanMessage
+from langplus.memory.chat_message_histories import SQLChatMessageHistory
+from langplus.schema import AIMessage, HumanMessage
 
 
 # @pytest.fixture(params=[("SQLite"), ("postgresql")])

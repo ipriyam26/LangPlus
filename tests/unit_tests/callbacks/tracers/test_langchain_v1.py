@@ -8,17 +8,17 @@ from uuid import uuid4
 import pytest
 from freezegun import freeze_time
 
-from langchain.callbacks.manager import CallbackManager
-from langchain.callbacks.tracers.base import BaseTracer, TracerException
-from langchain.callbacks.tracers.langchain_v1 import (
+from langplus.callbacks.manager import CallbackManager
+from langplus.callbacks.tracers.base import BaseTracer, TracerException
+from langplus.callbacks.tracers.langchain_v1 import (
     ChainRun,
     LangChainTracerV1,
     LLMRun,
     ToolRun,
     TracerSessionV1,
 )
-from langchain.callbacks.tracers.schemas import Run, RunTypeEnum, TracerSessionV1Base
-from langchain.schema import LLMResult
+from langplus.callbacks.tracers.schemas import Run, RunTypeEnum, TracerSessionV1Base
+from langplus.schema import LLMResult
 
 TEST_SESSION_ID = 2023
 

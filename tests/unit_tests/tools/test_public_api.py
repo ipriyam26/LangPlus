@@ -1,5 +1,5 @@
 """Test the public API of the tools package."""
-from langchain.tools import __all__ as public_api
+from langplus.tools import __all__ as public_api
 
 _EXPECTED = [
     "AIPluginTool",

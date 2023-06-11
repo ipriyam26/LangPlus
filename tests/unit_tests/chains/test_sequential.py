@@ -3,10 +3,10 @@ from typing import Dict, List, Optional
 
 import pytest
 
-from langchain.callbacks.manager import CallbackManagerForChainRun
-from langchain.chains.base import Chain
-from langchain.chains.sequential import SequentialChain, SimpleSequentialChain
-from langchain.memory.simple import SimpleMemory
+from langplus.callbacks.manager import CallbackManagerForChainRun
+from langplus.chains.base import Chain
+from langplus.chains.sequential import SequentialChain, SimpleSequentialChain
+from langplus.memory.simple import SimpleMemory
 
 
 class FakeChain(Chain):

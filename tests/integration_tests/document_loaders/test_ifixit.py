@@ -1,4 +1,4 @@
-from langchain.document_loaders.ifixit import IFixitLoader
+from langplus.document_loaders.ifixit import IFixitLoader
 
 
 def test_ifixit_loader() -> None:

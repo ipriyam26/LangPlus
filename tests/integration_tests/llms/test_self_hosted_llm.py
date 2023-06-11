@@ -4,7 +4,7 @@ from typing import Any, List, Optional
 
 from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline
 
-from langchain.llms import SelfHostedHuggingFaceLLM, SelfHostedPipeline
+from langplus.llms import SelfHostedHuggingFaceLLM, SelfHostedPipeline
 
 model_reqs = ["pip:./", "transformers", "torch"]
 

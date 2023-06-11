@@ -5,10 +5,10 @@ from contextlib import contextmanager
 from pathlib import Path
 from typing import Iterator
 
-from langchain.output_parsers import RegexParser
-from langchain.prompts.few_shot import FewShotPromptTemplate
-from langchain.prompts.loading import load_prompt
-from langchain.prompts.prompt import PromptTemplate
+from langplus.output_parsers import RegexParser
+from langplus.prompts.few_shot import FewShotPromptTemplate
+from langplus.prompts.loading import load_prompt
+from langplus.prompts.prompt import PromptTemplate
 
 
 @contextmanager

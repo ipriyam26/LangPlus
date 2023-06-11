@@ -3,8 +3,8 @@ from unittest.mock import MagicMock, patch
 
 import pytest
 
-from langchain.docstore.document import Document
-from langchain.document_loaders.psychic import PsychicLoader
+from langplus.docstore.document import Document
+from langplus.document_loaders.psychic import PsychicLoader
 
 
 @pytest.fixture

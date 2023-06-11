@@ -1,5 +1,5 @@
 """Test modelscope embeddings."""
-from langchain.embeddings.modelscope_hub import ModelScopeEmbeddings
+from langplus.embeddings.modelscope_hub import ModelScopeEmbeddings
 
 
 def test_modelscope_embedding_documents() -> None:

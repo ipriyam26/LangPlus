@@ -11,9 +11,9 @@ from unittest.mock import Mock, patch
 
 import pytest
 
-from langchain.chat_models import ChatVertexAI
-from langchain.chat_models.vertexai import _MessagePair, _parse_chat_history
-from langchain.schema import (
+from langplus.chat_models import ChatVertexAI
+from langplus.chat_models.vertexai import _MessagePair, _parse_chat_history
+from langplus.schema import (
     AIMessage,
     HumanMessage,
     SystemMessage,

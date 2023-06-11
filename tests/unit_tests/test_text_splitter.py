@@ -3,8 +3,8 @@ from typing import List
 
 import pytest
 
-from langchain.docstore.document import Document
-from langchain.text_splitter import (
+from langplus.docstore.document import Document
+from langplus.text_splitter import (
     CharacterTextSplitter,
     Language,
     PythonCodeTextSplitter,

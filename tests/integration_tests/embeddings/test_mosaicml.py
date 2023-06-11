@@ -1,5 +1,5 @@
 """Test mosaicml embeddings."""
-from langchain.embeddings.mosaicml import MosaicMLInstructorEmbeddings
+from langplus.embeddings.mosaicml import MosaicMLInstructorEmbeddings
 
 
 def test_mosaicml_embedding_documents() -> None:

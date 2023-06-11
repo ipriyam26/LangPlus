@@ -2,8 +2,8 @@ import pytest
 from pytest import raises
 from pytest_mock import MockerFixture
 
-from langchain.docstore.document import Document
-from langchain.document_loaders.json_loader import JSONLoader
+from langplus.docstore.document import Document
+from langplus.document_loaders.json_loader import JSONLoader
 
 
 @pytest.mark.requires("jq")

@@ -3,7 +3,7 @@
 import os
 from urllib.request import urlretrieve
 
-from langchain.embeddings.llamacpp import LlamaCppEmbeddings
+from langplus.embeddings.llamacpp import LlamaCppEmbeddings
 
 
 def get_model() -> str:

@@ -15,12 +15,12 @@ from openapi_schema_pydantic import (
     Schema,
 )
 
-from langchain.tools.openapi.utils.api_models import (
+from langplus.tools.openapi.utils.api_models import (
     APIOperation,
     APIRequestBody,
     APIRequestBodyProperty,
 )
-from langchain.tools.openapi.utils.openapi_utils import HTTPVerb, OpenAPISpec
+from langplus.tools.openapi.utils.openapi_utils import HTTPVerb, OpenAPISpec
 
 _DIR = Path(__file__).parent
 

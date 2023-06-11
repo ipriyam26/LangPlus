@@ -2,11 +2,11 @@
 
 import pytest
 
-from langchain.prompts.example_selector.ngram_overlap import (
+from langplus.prompts.example_selector.ngram_overlap import (
     NGramOverlapExampleSelector,
     ngram_overlap_score,
 )
-from langchain.prompts.prompt import PromptTemplate
+from langplus.prompts.prompt import PromptTemplate
 
 EXAMPLES = [
     {"input": "See Spot run.", "output": "foo1"},

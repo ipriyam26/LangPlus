@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from langchain.document_loaders import WhatsAppChatLoader
+from langplus.document_loaders import WhatsAppChatLoader
 
 
 def test_whatsapp_chat_loader() -> None:

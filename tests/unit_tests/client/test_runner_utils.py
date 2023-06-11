@@ -8,9 +8,9 @@ import pytest
 from langchainplus_sdk.client import LangChainPlusClient
 from langchainplus_sdk.schemas import Dataset, Example
 
-from langchain.base_language import BaseLanguageModel
-from langchain.chains.base import Chain
-from langchain.client.runner_utils import (
+from langplus.base_language import BaseLanguageModel
+from langplus.chains.base import Chain
+from langplus.client.runner_utils import (
     InputFormatError,
     _get_messages,
     _get_prompts,

@@ -4,7 +4,7 @@ import os
 from typing import Generator
 from urllib.request import urlretrieve
 
-from langchain.llms import LlamaCpp
+from langplus.llms import LlamaCpp
 
 from tests.unit_tests.callbacks.fake_callback_handler import FakeCallbackHandler
 

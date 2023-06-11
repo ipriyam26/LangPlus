@@ -3,9 +3,9 @@ from typing import List
 
 import pytest
 
-from langchain.callbacks.manager import CallbackManager
-from langchain.chat_models.anthropic import ChatAnthropic
-from langchain.schema import (
+from langplus.callbacks.manager import CallbackManager
+from langplus.chat_models.anthropic import ChatAnthropic
+from langplus.schema import (
     AIMessage,
     BaseMessage,
     ChatGeneration,

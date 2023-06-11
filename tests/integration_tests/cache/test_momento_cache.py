@@ -13,9 +13,9 @@ from typing import Iterator
 import pytest
 from momento import CacheClient, Configurations, CredentialProvider
 
-import langchain
-from langchain.cache import MomentoCache
-from langchain.schema import Generation, LLMResult
+import langplus
+from langplus.cache import MomentoCache
+from langplus.schema import Generation, LLMResult
 from tests.unit_tests.llms.fake_llm import FakeLLM
 
 
@@ -33,7 +33,7 @@ def momento_cache() -> Iterator[MomentoCache]:
     )
     try:
         llm_cache = MomentoCache(client, cache_name)
-        langchain.llm_cache = llm_cache
+        langplus.llm_cache = llm_cache
         yield llm_cache
     finally:
         client.delete_cache(cache_name)

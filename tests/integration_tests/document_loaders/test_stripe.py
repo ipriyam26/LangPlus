@@ -1,4 +1,4 @@
-from langchain.document_loaders.stripe import StripeLoader
+from langplus.document_loaders.stripe import StripeLoader
 
 
 def test_stripe_loader() -> None:

@@ -1,6 +1,6 @@
 import pytest
 
-from langchain.document_loaders import DirectoryLoader
+from langplus.document_loaders import DirectoryLoader
 
 
 def test_raise_error_if_path_not_exist() -> None:

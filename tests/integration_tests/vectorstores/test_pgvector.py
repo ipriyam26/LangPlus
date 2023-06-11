@@ -4,8 +4,8 @@ from typing import List
 
 from sqlalchemy.orm import Session
 
-from langchain.docstore.document import Document
-from langchain.vectorstores.pgvector import PGVector
+from langplus.docstore.document import Document
+from langplus.vectorstores.pgvector import PGVector
 from tests.integration_tests.vectorstores.fake_embeddings import FakeEmbeddings
 
 CONNECTION_STRING = PGVector.connection_string_from_db_params(

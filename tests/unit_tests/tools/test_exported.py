@@ -1,8 +1,8 @@
 from typing import List, Type
 
-import langchain.tools
-from langchain.tools import __all__ as tools_all
-from langchain.tools.base import BaseTool, StructuredTool
+import langplus.tools
+from langplus.tools import __all__ as tools_all
+from langplus.tools.base import BaseTool, StructuredTool
 
 _EXCLUDE = {
     BaseTool,
@@ -14,7 +14,7 @@ def _get_tool_classes(skip_tools_without_default_names: bool) -> List[Type[BaseT
     results = []
     for tool_class_name in tools_all:
         # Resolve the str to the class
-        tool_class = getattr(langchain.tools, tool_class_name)
+        tool_class = getattr(langplus.tools, tool_class_name)
         if isinstance(tool_class, type) and issubclass(tool_class, BaseTool):
             if tool_class in _EXCLUDE:
                 continue

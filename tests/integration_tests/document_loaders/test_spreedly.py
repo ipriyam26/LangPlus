@@ -1,4 +1,4 @@
-from langchain.document_loaders.spreedly import SpreedlyLoader
+from langplus.document_loaders.spreedly import SpreedlyLoader
 
 
 def test_spreedly_loader() -> None:

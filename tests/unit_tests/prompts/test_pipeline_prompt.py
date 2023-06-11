@@ -1,6 +1,6 @@
-from langchain.prompts.chat import ChatPromptTemplate, MessagesPlaceholder
-from langchain.prompts.pipeline import PipelinePromptTemplate
-from langchain.prompts.prompt import PromptTemplate
+from langplus.prompts.chat import ChatPromptTemplate, MessagesPlaceholder
+from langplus.prompts.pipeline import PipelinePromptTemplate
+from langplus.prompts.prompt import PromptTemplate
 
 
 def test_get_input_variables() -> None:

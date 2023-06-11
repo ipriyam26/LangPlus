@@ -6,7 +6,7 @@ from pathlib import Path
 
 import pytest
 
-from langchain.utilities.bash import BashProcess
+from langplus.utilities.bash import BashProcess
 
 
 @pytest.mark.skipif(

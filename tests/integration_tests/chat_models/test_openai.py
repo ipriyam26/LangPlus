@@ -3,9 +3,9 @@
 
 import pytest
 
-from langchain.callbacks.manager import CallbackManager
-from langchain.chat_models.openai import ChatOpenAI
-from langchain.schema import (
+from langplus.callbacks.manager import CallbackManager
+from langplus.chat_models.openai import ChatOpenAI
+from langplus.schema import (
     BaseMessage,
     ChatGeneration,
     ChatResult,
